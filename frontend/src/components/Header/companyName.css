@@ -1,0 +1,6 @@
+.name {
+    margin-right: 0; /* Set margin-right to 0 to align to the left */
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
