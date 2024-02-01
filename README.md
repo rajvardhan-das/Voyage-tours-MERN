@@ -1,4 +1,3 @@
-# Voyage-tours-MERN
 Goto "master" branch to access all the files.
 npm i
 nodemon
