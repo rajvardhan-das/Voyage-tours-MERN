@@ -11,6 +11,14 @@ import bookingRoute from "./routes/bookings.js"
 dotenv.config()
 const app = express()
 const port = process.env.PORT || 8000
+
+app.use(cors(
+    {
+        origin: ["https://deploy-mern-tours.vercel.app"],
+        methods: ["POST","GET"],
+        credentials: true
+    }
+    ));
 const corsOptions={
     credentials:true,
     origin:true
