@@ -19,6 +19,7 @@ app.use(cors(
         credentials: true
     }
     ));
+mongoose.connect('mongodb+srv://rajvardhan:Guddubhaiya8@cluster0.9btmyis.mongodb.net/test?retryWrites=true&w=majority');
 const corsOptions={
     credentials:true,
     origin:true
